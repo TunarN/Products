@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#products .my-container {
+  width: 97%;
+  margin: auto;
+}
+
+#products .my-card {
+  width: 100% !important;
+  height: 373px;
+  margin: 30px 0;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+}
+
+#products .my-card .image {
+  width: 100%;
+  height: 256px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 2px solid #eae6e6;
+}
+
+#products .my-card .image img {
+  width: 200px;
+  cursor: pointer;
+}
+
+#products .my-card .image i {
+  position: absolute;
+  font-size: 25px;
+  color: #999999;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#products .my-card .image i:hover {
+  color: red;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#products .my-card .card-bottom {
+  position: relative;
+}
+
+#products .my-card .card-bottom h6 {
+  display: inline;
+  color: #d38d43;
+  font-size: 18px;
+}
+
+#products .my-card .card-bottom button {
+  float: right;
+  border: none;
+  border-radius: 5px;
+  color: #d38d43;
+  font-size: 20px;
+}
+
+#products .my-card .card-bottom ion-icon:nth-last-child(5) {
+  color: #999999;
+}
+/*# sourceMappingURL=style.css.map */
